@@ -1,5 +1,8 @@
 # PRÁCTICA 1 - PROCESOS #
 
+# Santiago Bedoya Betancur
+# Lina María Uribe
+
 ## 1. Objetivos ##
 - [x] Familiarizarse con las diferentes estructuras y funciones relacionadas con el manejo de procesos en linux.
 - [x] Codificar programas que hagan uso del API de procesos.
