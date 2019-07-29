@@ -42,6 +42,9 @@ Realizar los siguientes ejercicios:
 *	¿Cuándo podría ser ```waitpid()``` útil?
 	>	Podría ser de mucha utilidad cuando un proceso padre, tiene más de un proceso hijo, dado a que la función ```waitpid()```espera a que termine un proceso hijo especifico, esto lo hace mediante uno de sus argumentos, el cual solicita el PID del proceso hijo que se va a esperar.
 
-7. Escriba un programa que cree un proceso hijo y entonces en el proceso hijo cierre la salida estándar (```STDOUT FILENO```). ¿Qué pasa si el hijo llama ```printf()``` para imprimir alguna salida después de cerrar el descriptor?
+7. Escriba un programa que cree un proceso hijo y entonces en el proceso hijo cierre la salida estándar (```STDOUT FILENO```). 
+*	¿Qué pasa si el hijo llama ```printf()``` para imprimir alguna salida después de cerrar el descriptor?
+	> Cuando el hijo cierra su salida estándar e intenta ejecutar un ```printf()```, no se imprime nada en la consola.
 
 8. Escriba un programa que cree dos hijos y conecte la salida estándar de un hijo a la entrada estándar del otro usando la llamada a sistema ```pipe()```
+	> ¡Hecho!
