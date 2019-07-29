@@ -1,7 +1,6 @@
 # PRÁCTICA 1 - PROCESOS #
 
-# Santiago Bedoya Betancur
-# Lina María Uribe
+# Santiago Bedoya Betancur y Lina María Uribe
 
 ## 1. Objetivos ##
 - [x] Familiarizarse con las diferentes estructuras y funciones relacionadas con el manejo de procesos en linux.
